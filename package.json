@@ -1,0 +1,27 @@
+{
+  "name": "online-store-react",
+  "version": "1.0.0",
+  "description": "online store using react",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonEduard26/online-store-react.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Jhon Eduard Bocanegra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhonEduard26/online-store-react/issues"
+  },
+  "homepage": "https://github.com/JhonEduard26/online-store-react#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
