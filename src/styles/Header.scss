@@ -1,0 +1,86 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.6rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.Header-navbar-left ul {
+  display: none;
+  font-size: var(--small-font-size);
+}
+
+.Header-navbar-email {
+  display: none;
+  font-size: var(--smaller-font-size);
+}
+
+.Header-navbar-shopping-cart {
+  position: relative;
+}
+
+.Header-navbar-shopping-cart div {
+  position: absolute;
+  top: -2px;
+  right: 1px;
+  width: 0.8rem;
+  height: 0.8rem;
+  font-size: 10px;
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .Header-menu {
+    display: none;
+  }
+
+  .Header-navbar-left {
+    display: flex;
+    margin-right: 2.4rem;
+  }
+
+  .Header-logo {
+    width: 120px;
+    margin-right: 2.4rem;
+  }
+
+  .Header-navbar-left ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header-navbar-left ul li {
+    margin: 0 0.4rem;
+  }
+
+  .Header-navbar-left a {
+    padding: 0.4rem 0.8rem;
+    color: var(--very-light-color);
+  }
+
+  .Header-navbar-left a:hover {
+    color: var(--dark);
+  }
+
+  .Header-navbar-email {
+    display: block;
+    margin-right: 0.8rem;
+  }
+
+  .Header-navbar-right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
