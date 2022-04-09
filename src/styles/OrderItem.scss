@@ -1,0 +1,30 @@
+.OrderItem-orders-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--mb-1-6);
+  padding: 1.2rem;
+}
+
+.OrderItem-orders-details div:nth-child(2) {
+  display: flex;
+}
+.OrderItem-arrow-icon {
+  margin-left: 1.2rem;
+}
+.OrderItem-orders-date,
+.OrderItem-orders-price {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-bold);
+}
+.OrderItem-orders-quantity {
+  font-size: var(--smaller-font-size);
+  color: var(--very-light-color);
+}
+@media screen and (min-width: 768px) {
+  .OrderItem-orders-details {
+    width: 360px;
+    margin-bottom: var(--mb-2-4);
+    padding: 0;
+  }
+}
