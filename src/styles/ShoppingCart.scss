@@ -3,7 +3,9 @@
   justify-content: center;
   width: 100%;
 }
-
+.ShoppingCart-order-container {
+  background-color: white;
+}
 .ShoppingCart-close {
   display: none;
   cursor: pointer;
@@ -57,7 +59,7 @@
   display: flex;
   margin-top: 1.6rem;
 }
-.ShoppingCart-title-container ShoppingCart-.arrow {
+.ShoppingCart-title-container .ShoppingCart-arrow {
   transform: rotate(180deg);
   cursor: pointer;
   margin-right: 0.8rem;
@@ -84,9 +86,13 @@
 @media screen and (min-width: 768px) {
   .ShoppingCart-product-detail {
     position: absolute;
+    top: 56px;
     right: 0;
     width: 360px;
+    padding-left: 0.8rem;
+    border-radius: 4px;
     box-shadow: -1px 1px 4px -2px;
+    background-color: white;
   }
   .ShoppingCart-order-title {
     display: block;

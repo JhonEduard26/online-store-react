@@ -1,6 +1,6 @@
 import React from 'react'
 import addToCartImage from '../assets/images/bt_add_to_cart.svg'
-import added from '../assets/images/bt_added_to_cart.svg'
+import addedToCartImage from '../assets/images/bt_added_to_cart.svg'
 import { AppContext } from '../context/AppContext'
 import '../styles/ProductItem.scss'
 
